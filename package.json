@@ -1,10 +1,13 @@
 {
-  "name": "workspace",
+  "name": "easy-pr",
   "version": "1.0.0",
   "description": "A command line utility to build PR messages for GitHub and creating PRs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "epr": "./index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +23,14 @@
   "bugs": {
     "url": "https://github.com/sahilkhosla/easy-pr/issues"
   },
-  "homepage": "https://github.com/sahilkhosla/easy-pr#readme"
+  "homepage": "https://github.com/sahilkhosla/easy-pr#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "clipboardy": "^2.1.0",
+    "inquirer": "^7.0.0",
+    "log-symbols": "^3.0.0",
+    "minimist": "^1.2.0",
+    "shelljs": "^0.8.3",
+    "write": "^2.0.0"
+  }
 }
