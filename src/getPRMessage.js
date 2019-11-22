@@ -28,5 +28,5 @@ ${answers.tests}
 - [${answers.documentation ? 'x': ' '}] I have made corresponding changes to the documentation
 - [${answers.noWarning ? 'x': ' '}] My changes generate no new warnings
 - [${answers.unitTest ? 'x': ' '}] I have added tests that prove my fix is effective or that my feature works
-- [${answers.dependencMerged ? 'x': ' '}] Any dependent changes have been merged and published in back-end services`
+- [${answers.dependencyMerged ? 'x': ' '}] Any dependent changes have been merged and published in back-end services`
 );
